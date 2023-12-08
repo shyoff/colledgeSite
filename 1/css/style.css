@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    text-align: center;
+    min-height: 100%;
+    color: #fff;
+}
+
+h1{
+    font-style: bold;
+    font-size: 100px;
+    color: rgb(155, 155, 155);
+}
+
+.links {
+    display: flex;
+    height: 300px;
+
+}
+.tg{
+    margin: 50px;
+    border-radius: 50px;
+    width: 50%;
+    background-color: blue;
+}
+.youtube{
+    margin: 50px;
+    border-radius: 50px;
+    width: 50%;
+    background-color: red;
+}
+a{
+    font-size: 30px;
+    color: #fff
+}
+
+input{
+    height: 50px;
+    margin: 10px;
+}
+input.contactInfo{
+    width: 300px;
+}
+textarea.mainInfo{
+    width: 630px;
+    height: 200px;
+}
+button{
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(155, 155, 155);
+    border-radius: 20px;
+    border: none;
+    font-size: 30px;
+    font-style: bold;
+}
+button:hover{
+    transform: scale(105%);
+    background-color: rgb(100, 100, 100);
+    animation-duration: 0.3s;
+
+}
+button:active{
+    background-color: rgb(30, 30, 30);
+    border: none;
+}
+.footer{
+
+    min-width:100%;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.myProgects{
+    text-align: left;
+    font-size: 30px
+}
+h2{
+
+    margin: 0;
+}
+ul{
+    margin: 0;
+}
+img{
+    height: 500px;
+}
+td{
+    width: 100px;
+}
